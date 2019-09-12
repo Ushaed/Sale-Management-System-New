@@ -1,0 +1,124 @@
+body{background: lightblue;
+	margin: 0;
+	padding: 0;
+}
+	
+#body_part{
+	width:1100px;
+	background: #9fc69a;
+	margin:20px auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#nav_bar{
+	background: #efe1e1;
+	width: 1100px;	
+	height: 35px;
+	float: left;
+	margin-top: -5px;
+	border-bottom: 2px solid gray;
+}
+
+#nav_bar ul{
+	margin-top: 0px;
+}
+#nav_bar li{
+	list-style: none;
+	background: #efe1e1;
+	display: inline-block;
+	padding: 5px 15px 7px 20px;
+	font-size: 20px;
+	font-weight: bold;	
+	border-right: 1px solid black;
+}
+#nav_bar ul a{
+	text-decoration: none;
+	color: black;
+}
+#nav_bar ul a:hover{
+	text-decoration: none;
+	color: #c3c6c2;
+}
+#nav_bar li:hover{
+	background: #6a6c69;
+	color: #c3c6c2;	
+}
+#main_section{
+	width: 1100px;
+}
+#main_section h3{
+	color:#042a02;
+}
+#main_section #article_1{
+	width: 300px;
+	padding: 20px 0px 00px 50px;
+	float: left;
+}
+#article_1 li{
+	list-style-image: url(image/tick.png);
+}
+#main_section #article_2{
+	width: 250px;
+	padding: 20px 0px 00px 50px;
+	float: left;
+	margin-left: 0px;
+}
+#main_section #article_2 img{
+	margin-left: 15px;
+}
+#main_section #article_2 h4{
+	margin-left: 10px;
+	font-size: 18px;
+	float: left;
+	color: green;
+}
+#main_section #article_2 input{
+	background: #1e1f1e;
+	color: white;
+	-webkit-border-radius: 10px;
+	padding: 5px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+#main_section #article_3 img{
+	margin: 20px 60px;
+}
+#article_section{
+	width: 1100px;
+	background: #889c7e;
+}
+#article_section article{
+	width: 250px;
+	display: inline-block;
+	margin: 15px 11px;
+}
+#article_section article header{
+	text-align: center;
+	padding: 5px 5px;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	color: white;	
+	background: #15682d;
+	-webkit-border-radius: 10px 10px 00px 0px;
+	background:-webkit-radial-gradient(top,#036117,#29803c);
+}
+#article_section article p{
+	text-align: center;
+	margin: 0px 0px;
+	padding: 13px 12px;		
+}
+
+
+#article_section p:nth-child(even){background:#029e2e;}
+#article_section p:nth-child(odd){background:#01b032;}
+
+
+
+
+
+
+
+
+
+
+

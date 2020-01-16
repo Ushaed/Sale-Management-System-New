@@ -79,10 +79,10 @@ else{
 			<ul>
 				<li><a href="employeeindex.php">Home</a></li>
 				<li><a href="sellproduct.php">Sell Product</a></li>
-				<li><a href="employeeindex.php">Request Product</a></li>
+<!--				<li><a href="employeeindex.php">Request Product</a></li>-->
 				<li><a href="employeeview.php">View Report</a></li>
-				<li><a href="employeeindex.php">View Stock</a></li>
-				<li><a href="employeeindex.php">Account</a></li>
+				<li><a href="viewstock.php">View Stock</a></li>
+				<li><a href="employee_account.php">Account</a></li>
 			</ul>
 		</nav>
 		
@@ -189,7 +189,8 @@ else{
 				</div>
 				
 			</form>
-			<center><?php
+			<center>
+                <?php
 			include "connection.php";
 	
 	$result=mysqli_query($con, "select * from campaign where employee_name='$name' and c_quantity>0");

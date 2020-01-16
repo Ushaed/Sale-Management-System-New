@@ -7,15 +7,15 @@
 <body>
 	<div id="body_part">
 		<?php include "header.php";?>
-		<nav id="nav_bar">
-			<ul>
-				<a href="index.php"><li>Home</li></a>
-				<a href="#"><li>Employee</li></a>
-				<a href="#"><li>Product</li></a>
-				<a href="#"><li>Report</li></a>
-				<a href="#"><li>Support</li></a>
-			</ul>
-		</nav>
+<!--		<nav id="nav_bar">-->
+<!--			<ul>-->
+<!--				<a href="index.php"><li>Home</li></a>-->
+<!--				<a href="#"><li>Employee</li></a>-->
+<!--				<a href="#"><li>Product</li></a>-->
+<!--				<a href="#"><li>Report</li></a>-->
+<!--				<a href="#"><li>Support</li></a>-->
+<!--			</ul>-->
+<!--		</nav>-->
 		
 		<section id="main_section">
 		<article id="article_1">

@@ -40,8 +40,9 @@
 		<h2>Sales Target and Promotion Campaign Management System</h2>
 		<aside>
 		<p><img src="image/phoneicon.png" height="15"/>&nbsp;Call us Now +88 0125 487</p>
-		<p>&nbsp;<img src="image/loginicon.png" height="15"/>&nbsp;&nbsp;<a href="#">Sign up</a> | <a href="login.php">Login</a></p>
+		<p>&nbsp;<img src="image/loginicon.png" height="15"/>&nbsp;&nbsp; <a href="login.php">Login</a></p>
 		</aside>
 	</div>
 </body>
 </html>
+<!--<a href="#">Sign up</a> |-->

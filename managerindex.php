@@ -42,7 +42,8 @@ else{
 				<li><a href="addbymanager.php">New Campaign</a></li>
 				<li><a href="addbymanager.php">Add Employee</a></li>
 				<li><a href="viewreport.php">View Report</a></li>
-				<li><a href="record.php">Account</a></li>
+                <li><a href="record.php">View Product</a></li>
+                <li><a href="employee_account.php">Account</a></li>
 			</ul>
 		</nav>
 		
